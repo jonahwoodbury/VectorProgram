@@ -41,7 +41,7 @@ int main(){
         
         /* When I type in a really long number (something like 22 characters, and then just hit enter) the program finishes,
          and says that the vector is empty. When I type two long numbers, it does the same. This is the only way that I can
-         get the program to respond with only numbers in the stream. */
+         get the program to respond with only numbers in the input stream. */
         
         /* When I type in only letters the program finishes and tells me that the vector is empty. */
    
