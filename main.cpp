@@ -20,7 +20,7 @@
 int main(){
     
     int x;
-    std::vector<int> v; // I was having some error here that involved the word 'breakpoint' until it went away for no reason.
+    std::vector<int> v; // I was having some error on this line that involved the word 'breakpoint' until it went away for no reason.
     
     std::cout << "Enter some numbers:\n";
     
