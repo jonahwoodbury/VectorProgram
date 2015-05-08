@@ -37,7 +37,7 @@ int main(){
     std::size_t least_index = 0;
 
     for (; i < v.size(); i += 1) {
-        std::cout << "vector size = " << v.size() << std::endl << "i = " << i << std::endl;
+       // std::cout << "vector size = " << v.size() << std::endl << "i = " << i << std::endl;
         
         if(v[i] > v[greatest_index]) greatest_index = i; // std::cout << "New greatest index " << v[greatest_index] << std::endl;
         if(v[i] < v[least_index]) least_index = i; // std::cout << "New least index " << v[least_index] << std::endl;
